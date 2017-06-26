@@ -147,6 +147,15 @@ Non-trainable params: 0
 ```
 我是故意把这个搞的比较复杂，最后kaggle上LB得分为0.98971, rank 652/1924，很多人做到了score为1的地步……
 
+我前两个卷积层为例说明一下卷积神经网络中参数个数的理解。
+
+首先，我的输入是一个28*28的灰度图，那么输入层是一个28*28*1的结构，那个1是该层的深度。
+conv2d_1：第一个卷积层，总共设置了32个filters(滤波器，也叫卷积核，这家伙也是有多个马甲的)。卷积核大小设置为3*3。那么经过32个filter的卷积后，输入层的图像变成了32个28*28的卷积层。（注意filter的数量等于该层的深度）。那么输入层到第一层卷积层的参数数量是怎么计算的呢？因为每个卷积核有3*3个参数，然后每个卷积核还要带一个bias参数，所以一个卷积核有3*3*1+1=10个参数。conv2d_1总共有32个卷积核，并且每个卷积核的深度是1，所以总共有(3*3*1+1)*32=320个参数。这个1看起来乘地没必要，但是它代表了每个卷积核的深度。卷积核的深度与上一层的输出的深度相等。
+
+con2d_2：第二个卷积层，同样设置了32个filters，卷积核大小同样设置为3*3。conv2d_1的输出是28*28*32的结构，即深度为32的28*28的图像。自然，con2d_2的filter的深度也为32。经过con2d_2的32个filter后，卷积得到依旧是28*28*32的输出。参数的数量怎么计算呢？对于con2d_2的一个卷积核来说，其深度是32，每一层的大小是3*3，再外加一个bias参数，那么一个卷积核的参数数量便是3*3*32+1=289个。然后总共有32个卷积核，所以总共的参数数量是(3*3*32+1)*32=9248。
+
+可能con2d_2的参数数量说明的让人头晕，更详细和生动的说明可以参见[博文](https://www.zybuluo.com/hanbingtao/note/485480)，里面有动图说明了对于深度大于1的卷积核的卷积操作。
+
 之后，我又尝试了PCA+SVM的模型，源码戳[这里](https://github.com/xijunlee/kaggle-solution/blob/master/DigitRecognizer/DigitRec_SVM.py)。因为没有专门去调参数，所以LB得分很低，才0.49743…… 不过，我想就算找到了最优参数，其效果也应该比不上卷积神经网络。
 
 
@@ -156,3 +165,4 @@ https://www.kaggle.com/poonaml/deep-neural-network-keras-way
 http://blog.topspeedsnail.com/archives/10427
 https://keras.io
 https://www.kaggle.com/somshubramajumdar/deep-convolutional-network-using-keras
+https://www.zybuluo.com/hanbingtao/note/485480
