@@ -1,5 +1,5 @@
 ---
-title: About Me / 关于我
+title: About Me
 date: 2017-01-17 10:44:54
 ---
 
