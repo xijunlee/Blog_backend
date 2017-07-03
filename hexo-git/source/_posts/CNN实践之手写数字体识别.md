@@ -172,6 +172,20 @@ con2d_2：第二个卷积层，同样设置了32个filters，卷积核大小同�
 
 之后，我又尝试了PCA+SVM的模型，源码戳[这里](https://github.com/xijunlee/kaggle-solution/blob/master/DigitRecognizer/DigitRec_SVM.py)。因为没有专门去调参数，所以LB得分很低，才0.49743…… 不过，我想就算找到了最优参数，其效果也应该比不上卷积神经网络。
 
+## DNN零基础入门教程推荐
+
+最后，推荐一组深度学习的入门教程，我认为还不错。
+
+[零基础入门深度学习(1) - 感知器](https://www.zybuluo.com/hanbingtao/note/433855)
+[零基础入门深度学习(2) - 线性单元和梯度下降](https://www.zybuluo.com/hanbingtao/note/448086)
+[零基础入门深度学习(3) - 神经网络和反向传播算法](https://www.zybuluo.com/hanbingtao/note/476663)
+[零基础入门深度学习(4) - 卷积神经网络](https://www.zybuluo.com/hanbingtao/note/485480)
+[零基础入门深度学习(5) - 循环神经网络](https://zybuluo.com/hanbingtao/note/541458)
+[零基础入门深度学习(6) - 长短时记忆网络(LSTM)](https://zybuluo.com/hanbingtao/note/581764)
+[零基础入门深度学习(7) - 递归神经网络](https://zybuluo.com/hanbingtao/note/626300)
+
+
+
 
 ---
 Reference
