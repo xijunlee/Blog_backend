@@ -1,7 +1,9 @@
 ---
 title: sklearn中SVM调参说明及经验总结
 date: 2017-03-29 20:47:23
-tags: SVM
+tags: 
+	- SVM
+	- Machine Learning
 ---
 
 ## 写在前面
@@ -69,11 +71,7 @@ gamma是选择RBF函数作为kernel后，该函数自带的一个参数。隐含
 当然，很多问题中，比如维度过高，或者样本海量的情况下，大家更倾向于用线性核，因为效果相当，但是在速度和模型大小方面，线性核会有更好的表现。
 
 ---
-
-Reference:
-
+Reference
 [http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC](http://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html#sklearn.svm.SVC)
-
 [http://blog.csdn.net/lqhbupt/article/details/8610443](http://blog.csdn.net/lqhbupt/article/details/8610443)
-
 [http://blog.csdn.net/lujiandong1/article/details/46386201](http://blog.csdn.net/lujiandong1/article/details/46386201)

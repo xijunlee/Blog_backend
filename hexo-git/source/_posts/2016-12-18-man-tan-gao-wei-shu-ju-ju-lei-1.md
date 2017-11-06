@@ -4,7 +4,9 @@ title: "漫谈高维数据聚类(1)"
 date: 2016-12-18 10:25:16 +0800
 comments: true
 tags: 
-	machine learning 
+	- Clustering
+	- Machine Learning
+
 ---
 
 ## 摘要：

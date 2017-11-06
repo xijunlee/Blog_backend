@@ -4,7 +4,7 @@ title: "泊松分布与指数分布的重新理解"
 date: 2016-12-28 11:01:20 +0800
 comments: true
 tags:
-    probability theory
+    - Probability Theory
 ---
 
 ## 写在前面的话

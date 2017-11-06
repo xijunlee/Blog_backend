@@ -1,6 +1,8 @@
 title: 卷积神经网络为什么叫卷积呢？
 date: 2017-04-11 22:45:16
-tags: CNN
+tags: 
+	- CNN
+	- Machine Learning
 ---
 
 ## 写在前面
@@ -126,16 +128,11 @@ F 是上下左右翻转后再与 G 对准的。因为卷积公式中 F(s, t) 乘
 以上提供了一个理解 CNN 的视角。CNN 的发明并非沿着此思路。像 NN 本身一样，CNN 的思想来源于对生物视觉神经系统的研究。
 
 ----
-## Reference:
-
+Reference
 ［1］[《最优化导论》（美）Edwin K. P. Chong（美） Stanislaw H. Zak](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/26732914/)
-
 ［2］[《神经网络设计》（美）Martin T. Hagan（美）Howard B. Demuth（美）Mark Beale](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/1115600/)
-
 ［3］[《机器学习》（美）Tom Mitchell](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/1102235/)
-
 ［4］[《神经计算原理》（美）Fredric M. Han（美）Ivica Kostanic](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/2068931/)
-
 ［5］[《人工智能——复杂问题求解的结构和策略》（美）George F. Luger](https://link.zhihu.com/?target=https%3A//book.douban.com/subject/3587732/)
 
 

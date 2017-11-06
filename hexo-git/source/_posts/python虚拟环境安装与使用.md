@@ -2,8 +2,8 @@
 title: python虚拟环境安装与使用(转)
 date: 2017-02-10 11:15:15
 tags:
-	python
-	virtual environment
+	- Python
+	- Virtual Environment
 ---
 
 

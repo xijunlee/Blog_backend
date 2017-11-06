@@ -4,7 +4,9 @@ title: "漫谈高维数据聚类(2):子空间聚类"
 date: 2016-12-22 09:46:37 +0800
 comments: true
 tags:
-    machine learning
+    - Clustering
+    - Machine Learning
+
     
 ---
 ## 摘要
@@ -82,53 +84,16 @@ $$s.t.\quad X=DZ$$
 求解这两个模型的方法有很多，有兴趣的朋友可以参阅论文[11]。
 
 
-## 参考文献
+---
+Reference
 [1]Fischler M., Bolles R. RANSAC random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography. Journal of ACM, 1981, 24(6): 381–395.
-
-
-
 [2]Ma Y., Derksen H., Hong W., Wright J. Segmentation of multivariate mixed data via lossy coding and compression. IEEE Trans. Pattern Analysis and Machine Intelligence, 2007, 29(9): 1546–1562.
-
-
-
-
 [3]Vidal R., Ma Y., Sastry S. Generalized principal component analysis (GPCA). IEEE Trans. Pattern Analysis and Machine Intelligence, 2005, 27(12): 1–15.
-
-
-
-
 [4]Lu L., Vidal R. Combined central and subspace clustering on computer vision applications. In: Proc. 23rd Int’l Conf. Machine Learning (ICML), 2006, pp.593–600.
-
-
-
-
 [5] Elhamifar E, Vidal R. Sparse subspace clustering[J]. IEEE Conference on Computer Vision and Pattern Recognition, Cvpr, 2009:2790 - 2797.
-
-
-
-
 [6]G L, Z L, S Y, et al. Robust Recovery of Subspace Structures by LowRank Representation[J]. Pattern Analysis & Machine Intelligence IEEE Transactions on, 2010, 35(1):171 - 184.
-
-
-
-
 [7]X G, K Z, D T, et al. Image SuperResolution With Sparse Neighbor Embedding[J]. IEEE Transactions on Image Processing, 2012, 21(7):3194 - 3205.
-
-
-
-
 [8]Donoho D L． Compressed sensing． IEEE Transactions on Information Theory,2006 52(4)：1289-1306．
-
-
-
-
 [9]Cand6s E．Compressive sampling．Proceedings of Proceedings of Inter-national Congress of Mathematicians，2006．1433-1452．
-
-
-
-
 [10] 卢参义. 基于稀疏表示的人脸分类与聚类[D]. 中国科学技术大学, 2012. DOI:10.7666/d.y2126052.
-
-
-
 [11]Lin Z, Chen M, Ma Y. The Augmented Lagrange Multiplier Method for Exact Recovery of Corrupted Low-Rank Matrices[J]. Eprint Arxiv, 2010.

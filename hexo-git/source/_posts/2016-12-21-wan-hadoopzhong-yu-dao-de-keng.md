@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "玩Hadoop中遇到的坑"
+title: 玩Hadoop中遇到的坑
 date: 2016-12-21 10:46:30 +0800
 comments: true
 tags:
-    distributed computing
+    Distributed Computing
 ---
 
 专门开一篇记录在玩Hadoop中遇到的坑，既给自己做个笔记，也为后来者做个提醒。

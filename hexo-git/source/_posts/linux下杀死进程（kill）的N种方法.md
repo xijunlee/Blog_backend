@@ -1,7 +1,8 @@
 ---
 title: linux下杀死进程（kill）的N种方法(转)
 date: 2017-02-05 20:39:52
-tags: linux
+tags: 
+	- Linux
 ---
 
 首先说明这是转载的，作为笔记整理成下文。

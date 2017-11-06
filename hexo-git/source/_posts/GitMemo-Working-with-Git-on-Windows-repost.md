@@ -2,7 +2,7 @@
 title: 'GitMemo: Working with Git on Windows'
 date: 2017-02-21 21:41:38
 tags:
-	git
+	Git
 ---
 
 ## Preamble

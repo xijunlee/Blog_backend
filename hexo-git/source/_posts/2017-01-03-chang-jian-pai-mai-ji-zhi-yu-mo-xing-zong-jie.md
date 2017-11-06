@@ -4,7 +4,7 @@ title: "常见拍卖机制与模型总结"
 date: 2017-01-03 16:33:34 +0800
 comments: true
 tags:
-    auction
+    Auction
 ---
 
 ## 写在前面的话

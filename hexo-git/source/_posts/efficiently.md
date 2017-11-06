@@ -1,7 +1,9 @@
 layout: a
 title: A Summary of Bit Manipulation (reposted from leetcode discussion)
 date: 2017-04-01 13:46:11
-tags: bit manipulation
+tags: 
+    - Bit Manipulation
+    - Programing Tricks
 ---
 
 ## WIKI
@@ -187,6 +189,5 @@ int hammingWeight(uint32_t n) {
 ```
 
 ----
-Reference:
-
+Reference
 [https://discuss.leetcode.com/topic/50315/a-summary-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently](https://discuss.leetcode.com/topic/50315/a-summary-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)

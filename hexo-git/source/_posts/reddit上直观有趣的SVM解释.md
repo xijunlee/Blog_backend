@@ -1,7 +1,9 @@
 ---
 title: reddit上有趣的SVM图解
 date: 2017-03-13 13:26:10
-tags: Support Vector Machine
+tags: 
+	- SVM
+	- Machine Learning
 ---
 
 ## 写在前面
