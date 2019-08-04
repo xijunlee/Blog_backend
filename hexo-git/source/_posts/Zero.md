@@ -1,12 +1,10 @@
-
+---
 title: AlphaGo Zero科普之从一无所知到也能吹水（上篇）
 date: 2017-11-03 23:58:38
 tags:
 	- Reinforcement Learning
 	- CNN
 	- MCTS
-top:
-	- true
 ---
 
 ## 写在前面
